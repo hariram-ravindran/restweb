@@ -1,0 +1,4 @@
+;/*FB_PKG_DELIM*/
+
+__d("LSUpdateOrInsertCommunitySurfaceRange",[],(function(a,b,c,d,e,f){function a(){var a=arguments,b=a[a.length-1],c=[];return b.sequence([function(c){return b.db.table(253).put({surfaceType:a[0],communityKey:a[1],isLoadingAfter:!1,hasMoreAfter:a[2],nextPageCursor:a[4]})},function(a){return b.resolve(c)}])}a.__sproc_name__="LSMailboxUpdateOrInsertCommunitySurfaceRangeStoredProcedure";a.__tables__=["community_surface_ranges"];e.exports=a}),null);
+__d("MessengerWebPollConstants",[],(function(a,b,c,d,e,f){e.exports={POLL_COMPOSER_MAX_OPTIONS:10,POLL_MAX_OPTIONS:200,POLL_MIN_OPTIONS:2,POLL_MAX_OPTION_LENGTH:140,POLL_MAX_QUESTION_LENGTH:140}}),null);

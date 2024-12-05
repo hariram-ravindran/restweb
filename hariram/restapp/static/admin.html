@@ -1,0 +1,159 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chefs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Pacifico&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #97bd00;
+        }
+
+
+        /* Header Section */
+        header {
+            text-align: center;
+            background-color: #0e6ff5;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            font-family: "Caveat", cursive;
+            font-size: 50px;
+            color: rgb(216, 16, 16);
+            margin: 0;
+        }
+
+        /* Chef Profiles Section */
+        .chefs-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 40px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .chef-card {
+            background-color: rgb(164, 17, 17);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .chef-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .chef-card img {
+            width: 100%;
+            object-fit: contain; /* Ensure the entire image fits without cropping */
+            max-height: 300px; /* Allow flexibility but limit height */
+        }
+
+        .chef-details {
+            padding: 20px;
+        }
+
+        .chef-details h1 {
+            font-size: 20px;
+            color: #b5651d;
+            margin: 10px 0;
+        }
+
+        .chef-details h2,
+        .chef-details h3 {
+            font-size: 16px;
+            color: #555;
+            margin: 5px 0;
+        }
+
+        /* Footer Section */
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: rgb(146, 25, 25);
+            padding: 10px 0;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Cooking chef</h1>
+    </header>
+
+    <!-- Chefs Profiles Section -->
+    <div class="chefs-container">
+        <div class="chef-card">
+            <img src="hari2.jpg" alt="Chef Hari">
+            <div class="chef-details">
+                <h1>Mr. DHari</h1>
+                <h2>Designation: World Class Chef</h2>
+                <h3>Experience: 8 years</h3>
+            </div>
+        </div>
+        <div class="chef-card">
+            <img src="ravi.jpg" alt="Chef Ravi">
+            <div class="chef-details">
+                <h1>Mr. Ravi</h1>
+                <h2>Designation: Executive Chef</h2>
+                <h3>Experience: 6 years</h3>
+            </div>
+        </div>
+        <div class="chef-card">
+            <img src="kashif.jpg" alt="Chef Kashif">
+            <div class="chef-details">
+                <h1>Mr. Kashif</h1>
+                <h2>Designation: Saucier Chef</h2>
+                <h3>Experience: 2 years</h3>
+            </div>
+        </div>
+        <div class="chef-card">
+            <img src="rafi.jpg" alt="Chef Rafi">
+            <div class="chef-details">
+                <h1>Mr. Rafi</h1>
+                <h2>Designation: Pastry Chef</h2>
+                <h3>Experience: 3 years</h3>
+            </div>
+        </div>
+        <div class="chef-card">
+            <img src="dilli.jpg" alt="Chef Dilli">
+            <div class="chef-details">
+                <h1>Mr Dilli</h1>
+                <h2>Designation: Pantry Chef</h2>
+                <h3>Experience: 4 years</h3>
+            </div>
+        </div>
+        <div class="chef-card">
+            <img src="madhesh.jpg" alt="Chef Madhesh">
+            <div class="chef-details">
+                <h1>Mr. Madhesh</h1>
+                <h2>Designation: Butcher Chef, Fish Chef</h2>
+                <h3>Experience: 4 years</h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Foodie's Paradise. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+

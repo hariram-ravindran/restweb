@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OUR Menu</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #f0f0f0, #e0e0e0);
+            color: #333;
+        }
+        header {
+            background-color: #3c008b;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-top: 5px;
+            font-weight: lighter;
+        }
+        .menu-section {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .menu-section h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 2.5rem;
+            color: #2a008b;
+            border-bottom: 3px solid #ddd;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+        .menu-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        .menu-item {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .menu-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+        }
+        .menu-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .menu-item h3 {
+            margin: 15px 0 10px;
+            font-size: 1.6rem;
+            color: #333;
+        }
+        .menu-item p {
+            color: #555;
+            font-size: 1rem;
+            margin: 0 10px 15px;
+        }
+        .menu-item .price {
+            font-weight: bold;
+            font-size: 1.2rem;
+            color: #33008b;
+            margin-bottom: 15px;
+        }
+        footer {
+            text-align: center;
+            padding: 15px 0;
+            background-color: #333;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>India Food</h1>
+    <p>Your favorite spot for authentic Indian non-veg meals</p>
+</header>
+
+<div class="menu-section">
+    <h2>Biriyani</h2>
+    <div class="menu-grid">
+        <div class="menu-item">
+            <img src="briyani.jpg" alt="Chicken Biriyani">
+            <h3>Chicken Biriyani</h3>
+            <p>>Briyani is my love language. ...</p>
+            <div class="price">₹349</div>
+        </div>
+        <div class="menu-item">
+            <img src="burger.jpg" alt="Burger">
+            <h3>Burger</h3>
+            <p>"Lettuce have a burgerlicious time!"</p>
+            <div class="price">₹329</div>
+        </div>
+        <div class="menu-item">
+            <img src="choco.avif" alt="Chocolate Frappe">
+            <h3>Chocolate Frappe</h3>
+            <p>Life is brew-tiful with frappes. ...</p>
+            <div class="price">₹389</div>
+        </div>
+        <div class="menu-item">
+            <img src="grill.jpg" alt="Grill Chicken">
+            <h3>Grill Chicken</h3>
+            <p>“Grilling up some serious flavor for my tummy"</p>
+            <div class="price">₹650</div>
+        </div>
+        <div class="menu-item">
+            <img src="PANEER.jpg" alt="Paneer Tikka">
+            <h3>Paneer Tikka</h3>
+            <p>"Paneer is the energy of protein and "Barbeque ❤️🔥🔥🔥 paneer tikka paneer on fire.</p>
+            <div class="price">₹289</div>
+        </div>
+    </div>
+</div>
+
+<div class="menu-section">
+    <h2>Starters</h2>
+    <div class="menu-grid">
+        <div class="menu-item">
+            <img src="idly.webp" alt="Idly">
+            <h3>Idly</h3>
+            <p>“Taste the love in every bite.”</p>
+            <div class="price">₹180</div>
+        </div>
+        <div class="menu-item">
+            <img src="roll.jpg" alt="Dragon roll">
+            <h3>Dragon roll</h3>
+            <p>Spicy and crispy chicken chunks with a flavorful sauce.</p>
+            <div class="price">₹220</div>
+        </div>
+        <div class="menu-item">
+            <img src="fish.jpg" alt="Fish Fry">
+            <h3>Fish Fry</h3>
+            <p>Fresh fish marinated and fried to perfection.</p>
+            <div class="price">₹250</div>
+        </div>
+        <div class="menu-item">
+            <img src="fry.jpg" alt="Crispy Chicken Fry">
+            <h3>Crispy Chicken Fry</h3>
+            <p>Delicious Chicken deep-fried with a crispy, spicy coating.</p>
+            <div class="price">₹280</div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="menu-section">
+    <h2>Main course</h2>
+    <div class="menu-grid">
+        <div class="menu-item">
+            <img src="noodles.jpg" alt="Paneer Noodles">
+            <h3>Paneer Noodles</h3>
+            <p>Full of awesomeness 🍝.</p>
+            <div class="price">₹340</div>
+        </div>
+        <div class="menu-item">
+            <img src="momos.jpg" alt="Momos">
+            <h3>Momos</h3>
+            <p>"Either steamed or fried my love for them is endless”</p>
+            <div class="price">₹379</div>
+        </div>
+        <div class="menu-item">
+            <img src="pizza.jpg" alt="Pizza">
+            <h3>Pizza</h3>
+            <p>It lust for crust!🍕</p>
+            <div class="price">₹499</div>
+        </div>
+        <div class="menu-item">
+            <img src="kebab.jpg" alt="Chicken Kebab">
+            <h3>Chicken kebab</h3>
+            <p>Chicken dinner saves the day</p>
+            <div class="price">₹360</div>
+        </div>
+        <div class="menu-item">
+            <img src="lolly.jpg" alt="Chicken Lollipop">
+            <h3>Chicken lollipop</h3>
+            <p>Chicken dinner saves the day.chicken</p>
+            <div class="price">₹300</div>
+        </div>
+        <div class="menu-item">
+            <img src="chic.jpg" alt="Chicken tisa">
+            <h3>Chicken Tisa</h3>
+            <p>It's Sunday non-veg time🍗😍.</p>
+            <div class="price">₹120</div>
+        </div>
+    </div>
+</div>
+
+<div class="menu-section">
+    <h2>Desserts</h2>
+    <div class="menu-grid">
+        <div class="menu-item">
+            <img src="mango.jpg" alt="Mango pano cotta">
+            <h3>Mango pano cotta</h3>
+            <p>Sweet, juicy, mangolicious!</p>
+            <div class="price">₹299</div>
+        </div>
+        <div class="menu-item">
+            <img src="rasamalai.jpg" alt="Rasamalai buffy">
+            <h3>Rasamalai buffy</h3>
+            <p>"Rasmalai recipe uses milk and rich cream, it is also rich in different vitamins and minerals like Vitamin A, C, B, Calcium, Magnesium, Phosphorous, Sodium, and ..." </p>
+            <div class="price">₹420</div>
+        </div>
+        <div class="menu-item">
+            <img src="brownie.jpg" alt="Brownie with icecream">
+            <h3>Brownie with icecream</h3>
+            <p>Life is short, eat brownies.</p>
+            <div class="price">₹350</div>
+        </div>
+        <div class="menu-item">
+            <img src="kunafa.jpg" alt="Kunafa">
+            <h3>Kunafa</h3>
+            <p>"Indulge in the finest Kunafa in town, where every bite is a taste of perfection" </p>
+            <div class="price">₹480</div>
+        </div>
+        <div class="menu-item">
+            <img src="deathbychocolate.jpg" alt="Deathbychocolate">
+            <h3>Deathbychocolate</h3>
+            <p>Good food 😋 good life❤️❤️</p>
+            <div class="price">₹120</div>
+        </div>
+        <div class="menu-item">
+            <img src="waffle.jpg" alt="Chocolate Waffle">
+            <h3>Chocolate Waffle</h3>
+            <p>Yummy 😋😋</p>
+            <div class="price">₹160</div>
+        </div>
+        <div class="menu-item">
+            <img src="kitkat.jpg" alt="Kitkat Cake">
+            <h3>Kitkat Cake</h3>
+            <p>"Coffee and chocolate—the inventor of mocha should be sainted."</p>
+            <div class="price">₹189</div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Delicious Indian Bites. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
